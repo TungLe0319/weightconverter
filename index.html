@@ -18,43 +18,46 @@
   </head>
 
   <body>
-    <div class="container"></div>
-    <div class="row">
-      <div class="col-8 offset-3">
-        <h1 class="display-4 text-center">Weight Converter</h1>
-        <form>
-          <div class="form-group">
-            <input
-              id="lbsInput"
-              type="number"
-              class="form-control form-control-lg"
-              placeholder="Enter Pounds..."
-            />
-          </div>
-        </form>
-        <div id="output">
-          <div class="card1 bg-primary mb-2">
-            <div class="card-body">
-              <h4>Grams:</h4>
-              <div id="gramsOutput"></div>
-            </div>
-          </div>
+    <div class="col-4 offset-4">
+      <h1 class="display-4 text-center">Weight Converter</h1>
 
-          <div class="card2 bg-success mb-2">
-            <div class="card-body">
-              <h4>Kilograms:</h4>
-              <div id="kgOutput"></div>
-            </div>
-          </div>
-
-          <div class="card3 bg-danger">
-            <div class="card-body">
-              <h4>Ounces:</h4>
-              <div id="ozOutput"></div>
-            </div>
-          </div>
-        </div>
+      <div id="pounds" class="card1 mb-2">
+        <label for="pounds">Pounds:</label>
+        <input
+          type="number"
+          class="form-control form-control-lg"
+          placeholder="Pounds.."
+        />
       </div>
+
+      <div id="grams" class="card2 mb-2">
+        <label for="grams">Grams:</label>
+        <input
+          type="number"
+          class="form-control form-control-lg"
+          placeholder="Grams.."
+        />
+      </div>
+
+      <div id="kilograms" class="card3 mb-2">
+        <label for="kilograms">Kilograms:</label>
+        <input
+          type="number"
+          class="form-control form-control-lg"
+          placeholder="Kilograms.."
+        />
+      </div>
+
+      <div id="ounces" class="card4">
+        <label for="ounces">Ounces:</label>
+        <input
+          type="number"
+          class="form-control form-control-lg"
+          placeholder="ounces.."
+        />
+      </div>
+
+      <div id="output"></div>
     </div>
 
     <script src="app.js"></script>
