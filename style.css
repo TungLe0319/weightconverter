@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 70px;
+  background: #333;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 3px 3px 3px 3px;
+
+  border-radius: 4px;
+}
